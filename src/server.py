@@ -120,7 +120,7 @@ def main():
     """Main entry point"""
 
     polling_interval_seconds = int(
-        os.getenv("POLLING_INTERVAL_SECONDS", "30"))
+        os.getenv("POLLING_INTERVAL_SECONDS", "600"))
     exporter_port = int(os.getenv("EXPORTER_PORT", "8000"))
 
     infisical_client = InfisicalClient(ClientSettings(

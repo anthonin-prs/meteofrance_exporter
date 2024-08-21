@@ -1,0 +1,4 @@
+prometheus-client
+requests
+urllib3
+infisical-python
